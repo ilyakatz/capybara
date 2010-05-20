@@ -24,7 +24,7 @@ class Capybara::Server
   end
 
   def host
-    "hostname" 
+    "127.0.0.1" 
   end
 
   def url(path)
