@@ -6,6 +6,7 @@ Gem::Specification.new do |s|
 
   s.required_rubygems_version = Gem::Requirement.new(">= 1.2") if s.respond_to? :required_rubygems_version=
   s.authors = ["Ilya Katz"]
+  s.cert_chain = ["/Users/ilyakatz/.ssh/gem-public_cert.pem"]
   s.date = %q{2010-05-20}
   s.description = %q{A fork for capybara project}
   s.email = %q{ilyakatz @nospam@ gmail dot com}
@@ -16,6 +17,7 @@ Gem::Specification.new do |s|
   s.require_paths = ["lib"]
   s.rubyforge_project = %q{katzil-capybara}
   s.rubygems_version = %q{1.3.6}
+  s.signing_key = %q{/Users/ilyakatz/.ssh/gem-private_key.pem}
   s.summary = %q{A fix to capybara gem}
 
   if s.respond_to? :specification_version then
